@@ -93,7 +93,12 @@
     margin-left: auto;
     margin-right: auto;
     width: 17vh;
+    transition: transform 1s;
     }
+
+.logoHeader:hover{
+    transform: scale(1.5);
+}
 
 .logoHeaderHome{
     height: 10vh ;
@@ -125,7 +130,7 @@ a:hover{
 
 .barraNavegacion__lista li:hover {
     transform: scale(1.5);
-    background-color: rgba(0, 0, 0, 0.45);
+    
 }
 
 .barraNavegacion__lista li{
@@ -154,7 +159,9 @@ h1 {display: flex;
     text-shadow: 5px 5px 10px;
     display: flex;
     justify-content: space-around;
+    align-items: center;  
     width: 100vw;
+    height: 5vw;
     }
 .barraNavegacion__lista__link{
     color: rgba(255, 255, 255, 0.829);
