@@ -71,9 +71,6 @@
     background-repeat: no-repeat;
     background-position: center top;
     min-height: 100vh;
-    
-    
-
 }
 
 .backgroundSuscribite{
@@ -84,6 +81,7 @@
     background-position: center top;
     min-height: 100vh;
 }
+
 
 
 .logoHeader{
@@ -107,7 +105,7 @@
     border-style: solid;
     border-color:rgba(10, 10, 34, 0.479);
     border-width: 10px;
-    width: 100vw;
+    width: 100%;
     margin-top: 5px;
 }
 
@@ -115,17 +113,23 @@
     display: flex;
     margin-left: auto;
     margin-right: auto;
-    margin-top: 5%;
     border-style: solid ;
     border-color: rgba(10, 10, 34, 0.479);
     border-width: 0.7vh;
     width: 15vw;
-       
 }
 
 a:hover{
     background-color: rgba(128, 128, 128, 0.322);
-    
+}
+
+.barraNavegacion__lista li:hover {
+    transform: scale(1.5);
+    background-color: rgba(0, 0, 0, 0.45);
+}
+
+.barraNavegacion__lista li{
+    transition: all 1s;
 }
 
 h1 {display: flex;
@@ -140,7 +144,6 @@ h1 {display: flex;
     background-color: rgba(0, 255, 255, 0.479);
     font-size: 5vw;
     font-weight: 50;
-    
 }
 
 .barraNavegacion__lista{
@@ -150,9 +153,15 @@ h1 {display: flex;
     font-size: 2.5vh;
     text-shadow: 5px 5px 10px;
     display: flex;
-    justify-content: center;
+    justify-content: space-around;
     width: 100vw;
     }
+.barraNavegacion__lista__link{
+    color: rgba(255, 255, 255, 0.829);
+    padding: 0px;
+    
+}
+    
 
 .main__grid{
     display: grid;
@@ -183,12 +192,6 @@ h1 {display: flex;
 
 a{
     text-decoration: none;
-}
-
-
-.barraNavegacion__lista__link{
-    color: rgba(255, 255, 255, 0.829);
-    padding: 0px 5vw;
 }
 
 .suscripcion{
